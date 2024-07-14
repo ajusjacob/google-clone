@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-size: 14px;
+    color: black;
+}
+
+body{
+    height: 55vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    height: 60px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+li{
+    text-align: center;
+    padding: 14px 12px;
+}
+a{
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration: underline;
+}
+.small-text{
+    font-size: 0.9rem;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+.material-symbols-outlined:hover{
+background-color: rgb(100, 100, 100, 0.1);
+cursor: pointer;
+}
+.search-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+input{
+    border-radius: 36px;
+    padding-left: 50px;
+    height: 33px;
+    width: 493px;
+    font-size: 1.2rem;
+    border: 1px solid black;
+}
+input:hover{
+    box-shadow: 0 1px 3px 1px rgba(201, 201, 201, 2);
+    cursor: text;
+}
+
+input:focus{
+    outline: none;
+}
+
+.buttons{
+    width: 350px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+
+}
+
+button{
+    border: 1px solid transparent;
+    padding: 4px 6px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+button:hover{
+    border: 1px solid #eee;
+    cursor: pointer;
+    box-shadow: 0 0 2px 1px rgba(201, 201, 201, 0.5);
+}
+.search{
+    padding-left: 25px;
+    display: flex;
+    align-items: flex-start;
+    margin-right: 530px;
+    justify-content: space-between;
+    
+}
+.mic{
+    padding-left: 500px;
+    margin-bottom: 30px;
+}
+.bar{
+    flex-direction: row;
+}
+.English{
+    border: 1px solid transparent;
+    padding: 4px 6px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+.English:hover{
+    box-shadow: 0 1px 3px 1px rgba(201, 201, 201, 2);
+    cursor: pointer;
+}
+.lang{
+    display: flex;
+}
+footer{
+    width: 50px;
+    background-color: aliceblue;
+
+}
+.panel{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+ 
+    border-bottom: 1px solid #f8f9fa;
+    padding: 15px;
+}
+.panel2{
+    justify-content: space-between;
+    display: flex;
+    padding-right: 100px;
+}
